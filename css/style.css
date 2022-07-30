@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background: white;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+}
+
+.box1 img {
+  width: 100%;
+  height: 540px;
+  border-bottom-left-radius: 10px;
+}
+
+.box2 {
+  background: rgba(14, 29, 52, 0.9);
+  width: 40%;
+  height: 480px;
+  padding: 30px;
+  border-bottom-right-radius: 10px;
+}
+
+.box2 h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.box2 h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: -10px;
+}
+
+.box2 .float {
+  display: flex;
+}
+
+.float .m1 {
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+.float .m2 {
+  margin-left: 30px;
+  font-size: small;
+  text-decoration: line-through;
+}
+
+.box2 .but {
+  text-align: center;
+}
+
+.box2 button {
+  padding: 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 8px;
+}
+
+.box2 button a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 8px;
+  color: rgba(14, 29, 52, 0.9);
+}
+
+.box2 img {
+  width: 15%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    display: block;
+    width: 80%;
+    margin-top: -40px;
+  }
+
+  .box1 img {
+    width: 100%;
+    height: 260px;
+    border-bottom-left-radius: 0;
+  }
+
+  .box2 {
+    background: rgba(14, 29, 52, 0.9);
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    margin-top: -10px;
+  }
+
+  .ox2 {
+    width: 80%;
+  }
+
+  .box2 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -20px;
+  }
+
+  .ox2 .none {
+    display: none;
+  }
+
+  .ox2 p {
+    margin-top: -20px;
+  }
+
+  .box2 .float {
+    margin-top: 60px;
+  }
+
+  .float .m1 {
+    font-size: 20px;
+  }
+
+  .float .m2 {
+    margin-left: 10px;
+    margin-top: -22px;
+    font-size: x-small;
+  }
+
+  .box2 button {
+    width: 90%;
+  }
+
+  .box2 button a {
+    font-weight: 700;
+  }
+}
